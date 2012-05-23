@@ -17,6 +17,8 @@ end
 
 gem 'jquery-rails', '2.0.0'
 
+#Caybara gem allows us to simulate a user's interaction with the application using a
+#simple syntax
 group :test do
   gem 'capybara', '1.1.2'
 end
